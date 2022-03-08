@@ -2,7 +2,7 @@
 
 # a="python"
 # print(a,type(a))
-# print(a[54])
+# print(a[0])
 
 # print("python"[0]) 
 # print("python"[1]) 
@@ -19,7 +19,6 @@ string is immutable, modifications cannot be made"""
 
 # v="department"
 # print(v[3]+v[2]+v[3]+v[4]+v[5]+v[6]+v[7]+v[8]+v[9])
-# print(v[3]+v[2:])
 
 # print("python"[-1]) 
 # print("python"[-2]) 
@@ -65,7 +64,7 @@ string is immutable, modifications cannot be made"""
 # print(y[2:-5])
 # print(y[-6:])
 
-c="python"
+# c="python"
 # print(c[ : : ]) 
 # print(c[0 : : 1]) 
 # print(c[ : :2]) 
@@ -96,8 +95,6 @@ c="python"
 string is immutable, modifications cannot be made"""
 
 # a="python"
-# print(a,type(a))
-# print(a[0])
 # a[0]='P'
 
 # print(dir(str))
@@ -118,16 +115,16 @@ string is immutable, modifications cannot be made"""
 # print(name.casefold())
 # print(name.lower())
 
-# name="hEllo pyThony"
-# print(len(name)) # 13
-# print(name.center) 
-# print(name.center()) 
+# name="Python Programming"
+# print(len(name)) 
+# print(len('computer'))
+# print(name.center(19)) 
 # print(name.center(50,'*'))
 # print(name.center(100))
 
-# name="hEllo pyThon"
-# print(type(name))
-# n=name.encode()
+# x="hEllo pyThon"
+# print(type(x))
+# n=x.encode()
 # print(n) 
 # print(n.decode()) 
 # print(type(b'hello'))
@@ -166,9 +163,8 @@ string is immutable, modifications cannot be made"""
 # print(z.startswith(' '))
 # print(z.startswith('h'))
 
-
 # v=''
-# g='    '
+# g='                             '
 # print(v.isspace())
 # print(g.isspace())
 
