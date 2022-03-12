@@ -248,7 +248,7 @@ string is immutable, modifications cannot be made"""
 # e="hey",
 # f="*".join(e)
 # print(f)
-# g="hey",''
+# g="hey",""
 # h="*".join(g)
 # print(h)
 
@@ -270,16 +270,16 @@ i.e. no spaces and no special symbols allowed"""
 
 
 # a="hello python"
-# print(a.isalnum()) 
+# print(a.isalnum()) # space not allowed in isalnum
 
 # a="hellopython"
-# print(a.isalnum())  
+# print(a.isalnum())  # returns True bcz no space
 
 # a="hello.python"
-# print(a.isalnum())  
+# print(a.isalnum())  # returns False bcz .(point) or special symbols are not allowed
 
 # a="hellopython39"
-# print(a.isalnum()) 
+# print(a.isalnum()) # returns True because contains only alphabets and numeric
 
 
 # b="core python"
@@ -318,7 +318,7 @@ i.e. no spaces and no special symbols allowed"""
 # print(chr(32)+"Hey")
 # print(chr(0)+"Hey")
 
-# print(ord('A')) 
+# print(ord('a')) 
 # print(ord('z')) 
 # print(ord('A'))
 # print(ord('Z'))
@@ -344,7 +344,7 @@ i.e. no spaces and no special symbols allowed"""
 # print(ord(" "))
 # print(ord("\t"))
 # print(ord("0"))
-# print(ord("10"))
+# print(ord("9"))
 # print(ord('')) # TypeError: ord() expexted a character, but string of length 0 found
 
 # v=bin(5)
@@ -370,8 +370,16 @@ i.e. no spaces and no special symbols allowed"""
 # print(0xA)
 # print(0xD)
 # print(0xF)
-# print(0xf)
 
+
+# a=65
+# print(a,type(a))
+# print(ord('1'))
+# print(chr(0o142))
+# print(chr(0o41)) # !
+# print(ord('A')) # 65
+# print(chr(0X61))  # a
+# print(chr(65)) # A
 
 # p="pythON proGRAMming"
 # print(p.swapcase()) 
@@ -383,15 +391,6 @@ i.e. no spaces and no special symbols allowed"""
 
 '''Format'''
 # print("Buy this for Rs.{ed} or for Rs.{d}".format(d=11,ed=50))
-
-# print('hello\tpython')
-# print('hello \tpython')
-# print('hello\t python')
-# print('\thello')
-
-
-
-
 
 '''expandtabs  , by default=8'''
 # a='R\tS\tV'
